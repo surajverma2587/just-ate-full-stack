@@ -1,26 +1,30 @@
 [
   {
-    "id": 111,
+    "id": "111",
     "logo": "https://loremflickr.com/500/500/restaurant",
-    "name": "SQ Dragon 1",
-    "type": "Japanese"
+    "name": "SQ Dragon",
+    "type": "Japanese",
+    "foods": [1231, 974]
   },
   {
-    "id": 222,
+    "id": "222",
     "logo": "https://loremflickr.com/500/500/restaurant",
-    "name": "SQ Dragon 2",
-    "type": "Japanese"
+    "name": "Hungry Juice Bar",
+    "type": "Vegan",
+    "foods": [523]
   },
   {
-    "id": 333,
+    "id": "333",
     "logo": "https://loremflickr.com/500/500/restaurant",
-    "name": "SQ Dragon 3",
-    "type": "Japanese"
+    "name": "Belly Bar & Grill",
+    "type": "Burgers",
+    "foods": [3408]
   },
   {
-    "id": 444,
+    "id": "444",
     "logo": "https://loremflickr.com/500/500/restaurant",
-    "name": "SQ Dragon 4",
-    "type": "Japanese"
+    "name": "Fat Shakes",
+    "type": "Bar",
+    "foods": [1231, 974, 523, 3408]
   }
 ]

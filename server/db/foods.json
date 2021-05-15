@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1231,
+    "name": "Salmon Nigiri",
+    "description": "Breaded fried chicken with waffles. Served with maple syrup.",
+    "price": 12.99,
+    "ingredients": "Lentils"
+  },
+  {
+    "id": 974,
+    "name": "Pasta with Tomato and Basil",
+    "description": "Three egg whites with spinach, mushrooms, caramelized onions, tomatoes and low-fat feta cheese. With herbed quinoa, and your choice of rye or whole-grain toast.",
+    "price": 8.99,
+    "ingredients": "Purple Carrot"
+  },
+  {
+    "id": 523,
+    "name": "Pasta and Beansi",
+    "description": "Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.",
+    "price": 4.99,
+    "ingredients": "Edam"
+  },
+  {
+    "id": 3408,
+    "name": "Cheeseburger",
+    "description": "Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.",
+    "price": 5.99,
+    "ingredients": "Radicchio"
+  }
+]
