@@ -33,6 +33,10 @@ const getRestaurantById = (req, res) => {
     return food;
   });
 
+  const price = foods[0].getPrice();
+
+  console.log(price);
+
   res.send({ ...restaurant, foods });
 };
 
