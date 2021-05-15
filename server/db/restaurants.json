@@ -1,0 +1,26 @@
+[
+  {
+    "id": 111,
+    "logo": "https://loremflickr.com/500/500/restaurant",
+    "name": "SQ Dragon 1",
+    "type": "Japanese"
+  },
+  {
+    "id": 222,
+    "logo": "https://loremflickr.com/500/500/restaurant",
+    "name": "SQ Dragon 2",
+    "type": "Japanese"
+  },
+  {
+    "id": 333,
+    "logo": "https://loremflickr.com/500/500/restaurant",
+    "name": "SQ Dragon 3",
+    "type": "Japanese"
+  },
+  {
+    "id": 444,
+    "logo": "https://loremflickr.com/500/500/restaurant",
+    "name": "SQ Dragon 4",
+    "type": "Japanese"
+  }
+]

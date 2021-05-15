@@ -1,3 +1,5 @@
+const BASE_URL = "http://localhost:3000";
+
 const renderCards = (restaurants) => {
   const constructRestaurantCard = ({ logo, name, type }) => {
     const restaurantCard = `<div class="card m-4" style="width: 18rem">
@@ -15,35 +17,19 @@ const renderCards = (restaurants) => {
   restaurants.forEach(constructRestaurantCard);
 };
 
-const onReady = () => {
-  // fetchData
-  const restaurants = [
-    {
-      id: 111,
-      logo: "https://loremflickr.com/500/500/restaurant",
-      name: "SQ Dragon 1",
-      type: "Japanese",
-    },
-    {
-      id: 222,
-      logo: "https://loremflickr.com/500/500/restaurant",
-      name: "SQ Dragon 2",
-      type: "Japanese",
-    },
-    {
-      id: 333,
-      logo: "https://loremflickr.com/500/500/restaurant",
-      name: "SQ Dragon 3",
-      type: "Japanese",
-    },
-    {
-      id: 444,
-      logo: "https://loremflickr.com/500/500/restaurant",
-      name: "SQ Dragon 4",
-      type: "Japanese",
-    },
-  ];
+const fetchData = async (url) => {
+  try {
+    const response = await fetch(url);
+    return response.json();
+  } catch (error) {
+    return error;
+  }
+};
 
+const onReady = async () => {
+  const restaurants = await fetchData(`${BASE_URL}/api/restaurants`);
+
+  console.log(restaurants);
   renderCards(restaurants);
 };
 
